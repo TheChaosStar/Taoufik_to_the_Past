@@ -10,56 +10,6 @@ body {
     background-size: 100%;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, .2);
-    width: 20%;
-    height: 100vh;
-}
-
-header nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-header nav ul li {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-
-    width: 100%;
-    padding: 25% 0;
-}
-
-header nav ul li a {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 10% 0;
-    font-size: 28px;
-    border: 2px solid;
-    text-decoration: none;
-    border-radius: 10px 10px;
-    color: white;
-    background-color: black;
-}
-
-header nav ul li a:hover {
-    transition: 0.3s all;
-    color: black;
-    background-color: white;
-
-}
-
 div {
     display: flex;
     flex-direction: row;
